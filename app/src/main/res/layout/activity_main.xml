@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="162dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/happyy" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="112dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/normall" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="159dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:srcCompat="@drawable/sadd" />
+
+    <Button
+        android:id="@+id/btnMainSignin"
+        android:layout_width="308dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btn_signin"
+        android:text="SIGNIn"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <Button
+        android:id="@+id/btnMainRegister"
+        android:layout_width="312dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_register"
+        android:text="REGISTER"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/btnMainSignin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnMainSignin"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainSignin" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="414dp"
+        android:layout_height="269dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/backg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
